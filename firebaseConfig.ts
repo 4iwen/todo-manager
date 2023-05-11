@@ -11,7 +11,7 @@ import {
 import { getDocs } from '@firebase/firestore'
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyD6RXyifYTSD7bYjPWV3B2QJWim5EXJYv0',
+  apiKey: process.env.FIREBASE_API_KEY,
   authDomain: 'todo-manager-cfb5f.firebaseapp.com',
   projectId: 'todo-manager-cfb5f',
   storageBucket: 'todo-manager-cfb5f.appspot.com',
